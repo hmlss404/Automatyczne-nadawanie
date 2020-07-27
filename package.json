@@ -1,0 +1,16 @@
+{
+  "name": "hmlss404",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "homele$$",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13"
+  },
+  "description": "Automatyczne nadawanie"
+}
