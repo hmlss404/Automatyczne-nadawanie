@@ -10,6 +10,7 @@ const fs = require("fs")
         .setDescription(`Pomyślnie nadałeś sobie item o id ${args[1]}`)
         .setThumbnail(message.guild.iconURL({ size: 1024, dynamic: true }))
         fs.appendFileSync('tutaj dajcie przekierowanie do pliku gdzie mają się zapisywać osoby', args[1]+':'+args[2]+ "\n")
+        fs.appendFileSync('userinfo/item_' + args[0], args[1])
     message.author.send(itemAutoEmbed);
         }
 module.exports.help = {
